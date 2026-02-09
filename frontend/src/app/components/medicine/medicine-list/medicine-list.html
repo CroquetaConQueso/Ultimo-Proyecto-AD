@@ -1,0 +1,23 @@
+<div class="container">
+  <h2>Inventario de Medicinas</h2>
+  <button routerLink="/medicines/new" class="btn-primary">Añadir Medicina</button>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Cantidad</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let medicine of medicines">
+        <td>{{ medicine.name }}</td>
+        <td>{{ medicine.quantity }}</td>
+        <td>
+          <button (click)="deleteMedicine(medicine.id)" class="btn-danger">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

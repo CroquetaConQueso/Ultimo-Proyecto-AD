@@ -1,0 +1,25 @@
+<div class="container">
+  <h2>Gestión de Pacientes</h2>
+  <button routerLink="/patients/new" class="btn-primary">Añadir Paciente</button>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Historial Médico</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let patient of patients">
+        <td>{{ patient.name }}</td>
+        <td>{{ patient.age }}</td>
+        <td>{{ patient.medicalHistory }}</td>
+        <td>
+          <button (click)="deletePatient(patient.id)" class="btn-danger">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

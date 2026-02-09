@@ -1,0 +1,16 @@
+<div class="form-container">
+  <h2>Añadir Nueva Medicina</h2>
+  <form (ngSubmit)="save()">
+    <div class="form-group">
+      <label>Nombre:</label>
+      <input type="text" [(ngModel)]="medicine.name" name="name" required class="form-control">
+    </div>
+    
+    <div class="form-group">
+      <label>Cantidad:</label>
+      <input type="number" [(ngModel)]="medicine.quantity" name="quantity" required class="form-control">
+    </div>
+
+    <button type="submit" class="btn-primary">Guardar</button>
+  </form>
+</div>

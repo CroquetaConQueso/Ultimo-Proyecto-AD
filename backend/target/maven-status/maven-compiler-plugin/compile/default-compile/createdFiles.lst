@@ -1,0 +1,14 @@
+com\hospital\repository\PatientRepository.class
+com\hospital\controller\MedicineController.class
+com\hospital\repository\TreatmentRepository.class
+com\hospital\repository\MedicineRepository.class
+com\hospital\model\Patient.class
+com\hospital\controller\PatientController.class
+com\hospital\util\DataSeeder.class
+com\hospital\controller\TreatmentController.class
+com\hospital\model\Treatment.class
+com\hospital\model\Medicine.class
+com\hospital\service\MedicineService.class
+com\hospital\service\PatientService.class
+com\hospital\HospitalApplication.class
+com\hospital\service\TreatmentService.class

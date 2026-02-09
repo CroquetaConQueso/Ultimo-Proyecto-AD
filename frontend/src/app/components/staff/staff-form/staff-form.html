@@ -1,0 +1,24 @@
+<div class="form-container">
+  <h2>Añadir Nuevo Personal</h2>
+  <form (ngSubmit)="save()">
+    <div class="form-group">
+      <label>Nombre:</label>
+      <input type="text" [(ngModel)]="staff.name" name="name" required class="form-control">
+    </div>
+    
+    <div class="form-group">
+      <label>Rol:</label>
+      <select [(ngModel)]="staff.role" name="role" class="form-control">
+        <option value="DOCTOR">Doctor</option>
+        <option value="NURSE">Enfermero/a</option>
+      </select>
+    </div>
+
+    <div class="form-group" *ngIf="staff.role === 'DOCTOR'">
+      <label>Especialización:</label>
+      <input type="text" [(ngModel)]="staff.specialization" name="specialization" class="form-control">
+    </div>
+
+    <button type="submit" class="btn-primary">Guardar</button>
+  </form>
+</div>
