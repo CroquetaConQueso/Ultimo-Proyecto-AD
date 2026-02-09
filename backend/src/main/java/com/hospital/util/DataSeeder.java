@@ -34,7 +34,11 @@ public class DataSeeder implements CommandLineRunner {
     }
 
     private void seedStaff() {
+<<<<<<< HEAD
         if (staffRepository.count() == 0) {
+=======
+        if (staffRepository.count() < 4) {
+>>>>>>> 138c42e (Uwaaa)
             Staff doc1 = new Staff();
             doc1.setName("Dr. Alejandro García");
             doc1.setRole(Role.DOCTOR);
@@ -55,7 +59,11 @@ public class DataSeeder implements CommandLineRunner {
     }
 
     private void seedPatients() {
+<<<<<<< HEAD
         if (patientRepository.count() == 0) {
+=======
+        if (patientRepository.count() < 4) {
+>>>>>>> 138c42e (Uwaaa)
             Patient p1 = new Patient();
             p1.setName("Carlos Ruiz");
             p1.setAge(35);
@@ -77,7 +85,11 @@ public class DataSeeder implements CommandLineRunner {
     }
 
     private void seedMedicines() {
+<<<<<<< HEAD
         if (medicineRepository.count() == 0) {
+=======
+        if (medicineRepository.count() < 4) {
+>>>>>>> 138c42e (Uwaaa)
             Medicine m1 = new Medicine();
             m1.setName("Paracetamol");
             m1.setQuantity(500);

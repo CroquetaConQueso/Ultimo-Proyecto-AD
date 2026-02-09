@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="container">
   <h2>Tratamientos</h2>
   <button routerLink="/treatments/new" class="btn-primary">Nuevo Tratamiento</button>
@@ -23,3 +24,45 @@
     </tbody>
   </table>
 </div>
+=======
+<div class="container-fluid">
+  <div class="page-header">
+    <h2>Tratamientos Asignados</h2>
+    <button routerLink="/treatments/new" class="btn btn-primary">
+      + Asignar Tratamiento
+    </button>
+  </div>
+
+  <div class="card table-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Paciente</th>
+          <th>Descripción del Tratamiento</th>
+          <th>Inicio</th>
+          <th>Fin</th>
+          <th style="width: 150px;">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let t of treatments">
+          <td>
+            <strong>{{ t.patientId }}</strong>
+            </td>
+          <td>{{ t.description }}</td>
+          <td>{{ t.startDate | date:'dd/MM/yyyy' }}</td>
+          <td>{{ t.endDate | date:'dd/MM/yyyy' }}</td>
+          <td>
+            <button (click)="delete(t.id)" class="btn btn-danger btn-sm">
+              Eliminar
+            </button>
+          </td>
+        </tr>
+        <tr *ngIf="treatments.length === 0">
+          <td colspan="5" class="text-center">No hay tratamientos registrados.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+>>>>>>> 138c42e (Uwaaa)

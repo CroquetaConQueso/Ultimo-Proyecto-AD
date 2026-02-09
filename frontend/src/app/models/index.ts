@@ -24,5 +24,11 @@ export interface Treatment {
     staffId: string;
     medicineId: string;
     date?: string;
+<<<<<<< HEAD
+=======
+    startDate?: string;
+    endDate?: string;
+    description?: string;
+>>>>>>> 138c42e (Uwaaa)
     notes: string;
 }

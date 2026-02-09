@@ -4,6 +4,10 @@ C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src
 C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src\main\java\com\hospital\model\Treatment.java
 C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src\main\java\com\hospital\service\StaffService.java
 C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src\main\java\com\hospital\service\PatientService.java
+<<<<<<< HEAD
+=======
+C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src\main\java\com\hospital\config\WebConfig.java
+>>>>>>> 138c42e (Uwaaa)
 C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src\main\java\com\hospital\util\DataSeeder.java
 C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src\main\java\com\hospital\repository\TreatmentRepository.java
 C:\Users\Usuario\.gemini\antigravity\scratch\spring-angular-hospital\backend\src\main\java\com\hospital\model\Medicine.java

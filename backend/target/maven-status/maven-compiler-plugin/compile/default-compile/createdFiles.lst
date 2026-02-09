@@ -1,14 +1,33 @@
+<<<<<<< HEAD
+=======
+com\hospital\model\Staff.class
+>>>>>>> 138c42e (Uwaaa)
 com\hospital\repository\PatientRepository.class
 com\hospital\controller\MedicineController.class
 com\hospital\repository\TreatmentRepository.class
 com\hospital\repository\MedicineRepository.class
 com\hospital\model\Patient.class
+<<<<<<< HEAD
+=======
+com\hospital\repository\StaffRepository.class
+com\hospital\controller\StaffController.class
+>>>>>>> 138c42e (Uwaaa)
 com\hospital\controller\PatientController.class
 com\hospital\util\DataSeeder.class
 com\hospital\controller\TreatmentController.class
 com\hospital\model\Treatment.class
+<<<<<<< HEAD
+=======
+com\hospital\model\Staff$Role.class
+com\hospital\config\WebConfig.class
+com\hospital\config\WebConfig$1.class
+>>>>>>> 138c42e (Uwaaa)
 com\hospital\model\Medicine.class
 com\hospital\service\MedicineService.class
 com\hospital\service\PatientService.class
 com\hospital\HospitalApplication.class
+<<<<<<< HEAD
+=======
+com\hospital\service\StaffService.class
+>>>>>>> 138c42e (Uwaaa)
 com\hospital\service\TreatmentService.class
